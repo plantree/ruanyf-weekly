@@ -1,0 +1,32 @@
+{
+  "name": "ruanyf-weekly",
+  "version": "1.0.0",
+  "description": "VitePress构建阮一峰的技术周刊",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plantree/ruanyf-weekly.git"
+  },
+  "author": "plantree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plantree/ruanyf-weekly/issues"
+  },
+  "homepage": "https://github.com/plantree/ruanyf-weekly#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.49",
+    "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "@giscus/vue": "^2.2.8"
+  }
+}
