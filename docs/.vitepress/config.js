@@ -3,6 +3,7 @@ import fs from 'fs'
 import path from 'path'
 
 export default defineConfig({
+  ignoreDeadLinks: true, 
   title: 'ruanyf-weekly',
   description: '阮一峰的技术周刊',
   lang: 'zh-CN',
