@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: 阮一峰的技术周刊(小站)
+title: 阮一峰的技术周刊
 titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
-  name: 阮一峰的技术周刊(小站)
+  name: 阮一峰的技术周刊
   actions:
     - theme: brand
       text: Get Started

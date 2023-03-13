@@ -44,7 +44,7 @@ export default defineConfig({
 });
 
 function _convertParseWeeklyReadme() {
-    const content = fs.readFileSync('./scripts/tree.json', 'utf8').toString()
+    const content = fs.readFileSync('./scripts/weekly.json', 'utf8').toString()
     const tree = JSON.parse(content)
     const config = [];
     for (let year in tree) {

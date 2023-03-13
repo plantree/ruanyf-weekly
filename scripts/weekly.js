@@ -34,5 +34,5 @@ function parseWeeklyReadme(dir) {
 }
 
 // console.log(pattern.exec('- 第 244 期：[大数据已死](docs/issue-244.md)'));
-let meta = parseWeeklyReadme('/home/work/Code/Github/weekly/');
+let meta = parseWeeklyReadme('./weekly-master');
 console.log(JSON.stringify(meta));
