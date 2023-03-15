@@ -55,7 +55,7 @@ function _convertParseWeeklyReadme() {
             for (let issue of tree[year][month]) {
                 items.push({
                     text: issue.split('-')[1] + '期',
-                    link: `/weekly/${issue}`
+                    link: `/weekly/${issue}.html`
                 });
             }
             monthItems.push({

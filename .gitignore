@@ -109,3 +109,5 @@ issue*.md
 !issue-8.md
 !issue-82.md
 scripts/*.json
+.env
+*.json

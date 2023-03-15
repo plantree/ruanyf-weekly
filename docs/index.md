@@ -6,6 +6,7 @@ titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
   name: 阮一峰的技术周刊
+  tagline: 科技, 分享, 开源
   actions:
     - theme: brand
       text: Get Started
