@@ -1,0 +1,25 @@
+name: 'weekly deploy'
+on: 
+  push
+    branches:
+      - main
+  schedule:
+    # saturday 01:00
+    - cron '0 17 * * 6'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update
+        run: |
+          date "+%Y-%m-%d %H:%M:%S" >> actions.txt
+          today=`date +"%Y-%m-%d"`
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "[${today}] done"
+          git push
+
+
