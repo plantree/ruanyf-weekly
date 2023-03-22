@@ -1,11 +1,11 @@
 name: 'weekly deploy'
 on: 
-  push
+  push:
     branches:
       - main
   schedule:
     # saturday 01:00
-    - cron '0 17 * * 6'
+    - cron: '0 17 * * 6'
 
 jobs:
   build:
