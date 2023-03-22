@@ -23,3 +23,9 @@ const { Layout } = DefaultTheme
     </template>
   </Layout>
 </template>
+
+<style>
+img.pv {
+  margin-top: 1em;
+}
+</style>
