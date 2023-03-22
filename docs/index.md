@@ -6,7 +6,8 @@ titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
   name: 阮一峰的技术周刊
-  tagline: 科技, 分享, 开源
+  text: 科技, 分享, 开源
+  tagline: 出于个人兴趣搭建，非官方！！！官网链接在https://www.ruanyifeng.com/blog/
   actions:
     - theme: brand
       text: Get Started
