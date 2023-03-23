@@ -1,5 +1,10 @@
 # ruanyf-weekly
 
+<p align="left">
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
+<a href="https://github.com/plantree/ruanyf-weekly/actions/workflows/weekly-deploy.yml"><img src="https://github.com/plantree/ruanyf-weekly/actions/workflows/weekly-deploy.yml/badge.svg"></a>
+</p>
+
 > 声明: 非官方！！！官网链接在https://www.ruanyifeng.com/blog/
 
 #### 一. 背景
@@ -24,7 +29,7 @@
 
 - 搜索引擎使用Algolia
 
-地址在：https://ruanyf-weekly.vercel.app/
+地址在：https://ruanyf-weekly.plantree.me/
 
 #### 参考
 1. https://www.ruanyifeng.com/blog/
