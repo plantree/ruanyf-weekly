@@ -13,5 +13,5 @@ files=`ls . | grep issue`
 for file in ${files[@]}
 do 
     sed -i '3i\<img class="pv" src="https://api.visitor.plantree.me/visitor-badge/pv?namespace=plantree.me&key=ruanyf-weekly/'${file}'">\n' ${file}
-    sed -i 's/http:\/\/www.ruanyifeng.com.*issue-\([0-9]\+\)\.html/.\/issue-\1/' ${file}
+    sed -i 's/http:\/\/www.ruanyifeng.com\/blog\/.*issue-\([0-9]\+\)\.html/.\/issue-\1/' ${file}
 done
