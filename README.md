@@ -7,6 +7,8 @@
 
 > 声明: 非官方！！！官网链接在https://www.ruanyifeng.com/blog/
 
+网站地址在：https://ruanyf-weekly.plantree.me/
+
 #### 一. 背景
 
 个人平时比较喜欢看阮一峰老师的技术周刊，文笔简练，条理清晰。
@@ -29,8 +31,37 @@
 
 - 搜索引擎使用Algolia
 
-地址在：https://ruanyf-weekly.plantree.me/
+#### Changelog
+
+##### Todo
+
+###### Features
+
+- 图片格式从webp转为通用格式
+
+##### 2023.03.27
+
+###### Bug Fixes
+
+- 定期更新时间改为周五
+- Giscus适配dark-mode
+- Giscus跟随路由跳转而更新
+
+###### Features
+
+- NavBar增加周报title
+
+##### 2023.03.23
+
+###### Features
+
+- VitePress构建静态页面，并部署到Vercel
+- 接入Algolia
+- GitHub Action周级构建
+- 接入Giscus，增加评论
 
 #### 参考
+
 1. https://www.ruanyifeng.com/blog/
+1. https://giscus.app/zh-CN
 

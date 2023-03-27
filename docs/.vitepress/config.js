@@ -12,7 +12,7 @@ export default defineConfig({
   head: [['meta', { name: 'theme-color', content: '#3c8772' }]],
   markdown: {
     headers: {
-      level: [0, 0]
+      level: [0, 1]
     }
   },
   themeConfig: {
@@ -54,8 +54,8 @@ function _convertParseWeeklyReadme() {
             const items = [];
             for (let issue of tree[year][month]) {
                 items.push({
-                    text: issue.split('-')[1] + '期',
-                    link: `/weekly/${issue}`
+                    text: issue[1].split('-')[1] + '期 | ' + issue[0],
+                    link: `/weekly/${issue[1]}`
                 });
             }
             monthItems.push({

@@ -20,8 +20,9 @@ function fsm(content) {
             meta[yearStatus][month] = [];
             monthStatus = month;
         } else if (line.startsWith('- 第')) {
-            const issue = pattern.exec(line)[0];
-            meta[yearStatus][monthStatus].push(issue);
+            const title = line.slice(line.indexOf('[') + 1, line.indexOf(']'));
+            const issueNo = pattern.exec(line)[0];
+            meta[yearStatus][monthStatus].push([title, issueNo]);
         }
         i++;
     }
