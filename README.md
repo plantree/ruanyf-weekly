@@ -42,7 +42,7 @@
 
 ### 四. Vercel部署
 
-- [![Deploy to Vercel](https://img.shields.io/badge/Deploy-to_Vercel-blue?style=flat-square&logo=vercel)](https://vercel.com/import/git?s=https://github.com/plantree/ruanyf-weekly)
+- [![Deploy to Vercel](https://img.shields.io/badge/Deploy-to_Vercel-blue?style=flat-square&logo=vercel)](https://vercel.com/new/import/hidden?s=https%3A%2F%2Fgithub.com%2Fchaos-zhu%2Fruanyf-weekly)
 
 #### Changelog
 
