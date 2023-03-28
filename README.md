@@ -39,6 +39,11 @@
 
 - 启动：`npm run docs:dev`
 
+
+### 四. Vercel部署
+
+- [![Deploy to Vercel](https://img.shields.io/badge/Deploy-to_Vercel-blue?style=flat-square&logo=vercel)](https://vercel.com/import/git?s=https://github.com/plantree/ruanyf-weekly)
+
 #### Changelog
 
 ##### Todo
