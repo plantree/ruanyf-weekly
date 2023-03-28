@@ -31,6 +31,19 @@
 
 - 搜索引擎使用Algolia
 
+#### 三. 本地启动
+
+- 安装依赖：`npm i`
+
+- 爬取周刊：`./script/main.sh`
+
+- 启动：`npm run docs:dev`
+
+
+#### 四. Vercel部署
+
+[![Deploy to Vercel](https://img.shields.io/badge/Deploy-to_Vercel-blue?style=flat-square&logo=vercel)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fplantree%2Fruanyf-weekly&install-command=npm%20install&build-command=bash%20.%2Fscripts%2Fmain.sh%20%26%26%20npm%20run%20docs%3Abuild&output-directory=docs%2F.vitepress%2Fdist)
+
 #### Changelog
 
 ##### Todo
