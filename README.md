@@ -31,6 +31,14 @@
 
 - 搜索引擎使用Algolia
 
+#### 三. 本地启动
+
+- 安装依赖：`npm i`
+
+- 爬取周刊：`./script/main.sh`
+
+- 启动：`npm run docs:dev`
+
 #### Changelog
 
 ##### Todo
