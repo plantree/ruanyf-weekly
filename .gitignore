@@ -112,3 +112,6 @@ issue*.md
 scripts/*.json
 .env
 *.json
+!vercel.json
+!package.json
+!package-lock.json

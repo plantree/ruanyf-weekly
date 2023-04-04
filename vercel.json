@@ -1,3 +1,7 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "framework": "vitepress",
+  "installCommand": "npm install",
+  "buildCommand": "bash ./scripts/main.sh && npm run docs:build",
+  "outputDirectory": "docs/.vitepress/dist"
 }
