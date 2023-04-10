@@ -1,3 +1,4 @@
+import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vitepress'
 import fs from 'fs'
 import path from 'path'
@@ -41,7 +42,7 @@ export default defineConfig({
       apiKey: '9bb35b7fbb4b3ae36bb0f2ac9af77b5e',
       indexName: 'ruanyf-weekly'
     },
-  }
+  },
 });
 
 function _convertParseWeeklyReadme() {

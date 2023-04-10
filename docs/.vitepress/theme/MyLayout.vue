@@ -8,6 +8,13 @@ const { Layout } = DefaultTheme
 <template>
   <Layout>
     <template #doc-after>
+      <div class="donation">
+        <div>
+          <img src="http://www.mianfeiwucan.org/uploads/pics/weixin.png" alt="img" />
+          <img src="http://www.mianfeiwucan.org/uploads/pics/alipay.png" alt="img" />
+          <img src="http://www.mianfeiwucan.org/uploads/pics/sina.png" alt="img" />
+        </div>
+      </div>
       <div class="giscus">
         <Giscus
           :key="giscus"
@@ -58,6 +65,24 @@ img.pv {
 
 div.giscus {
   margin-top: 2em;
+}
+
+.donation {
+  margin-top: 2em;
+}
+
+.donation div {
+  margin: 0 auto;  
+  flex: 0 1 auto;
+  flex-direction: row;
+  max-width: max-content;
+  row-gap: 10px;
+}
+
+.donation img {
+  display: inline-block;
+  zoom: 25%;
+  margin: 4em;
 }
 
 </style>

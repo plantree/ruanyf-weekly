@@ -48,9 +48,14 @@
 
 ##### Todo
 
+- 图片格式从webp转为通用格式
+
+##### 2023.04.10
+
 ###### Features
 
-- 图片格式从webp转为通用格式
+- 一键部署到Vercel（感谢@chaos-zhu）
+- 增加公益捐赠（免费午餐）
 
 ##### 2023.03.27
 
@@ -73,8 +78,17 @@
 - GitHub Action周级构建
 - 接入Giscus，增加评论
 
+#### 公益捐赠（免费午餐）
+
+<p align="left">
+<img src="http://www.mianfeiwucan.org/uploads/pics/weixin.png" alt="img" style="zoom: 25%; margin-right: 10em;" />
+<img src="http://www.mianfeiwucan.org/uploads/pics/alipay.png" alt="img" style="zoom:25%; margin-right: 10em;" />
+<img src="http://www.mianfeiwucan.org/uploads/pics/sina.png" alt="img" style="zoom: 25%;" />
+</p>
+
 #### 参考
 
 1. https://www.ruanyifeng.com/blog/
 1. https://giscus.app/zh-CN
+1. http://www.mianfeiwucan.org/
 
