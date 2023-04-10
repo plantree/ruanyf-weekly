@@ -81,9 +81,9 @@
 #### 公益捐赠（免费午餐）
 
 <p align="left">
-<img src="http://www.mianfeiwucan.org/uploads/pics/weixin.png" alt="img" style="zoom: 25%; margin-right: 10em;" />
-<img src="http://www.mianfeiwucan.org/uploads/pics/alipay.png" alt="img" style="zoom:25%; margin-right: 10em;" />
-<img src="http://www.mianfeiwucan.org/uploads/pics/sina.png" alt="img" style="zoom: 25%;" />
+<img src="http://www.mianfeiwucan.org/uploads/pics/weixin.png" alt="img" width="200" />
+<img src="http://www.mianfeiwucan.org/uploads/pics/alipay.png" alt="img" width="200" />
+<img src="http://www.mianfeiwucan.org/uploads/pics/sina.png" alt="img" width="200" />
 </p>
 
 #### 参考
