@@ -10,9 +10,9 @@ const { Layout } = DefaultTheme
     <template #doc-after>
       <div class="donation">
         <div>
-          <img src="http://www.mianfeiwucan.org/uploads/pics/weixin.png" alt="img" />
-          <img src="http://www.mianfeiwucan.org/uploads/pics/alipay.png" alt="img" />
-          <img src="http://www.mianfeiwucan.org/uploads/pics/sina.png" alt="img" />
+          <img src="/weixin.png" alt="img" />
+          <img src="/alipay.png" alt="img" />
+          <img src="/sina.png" alt="img" />
         </div>
       </div>
       <div class="giscus">
