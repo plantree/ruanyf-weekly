@@ -1,8 +1,5 @@
 name: 'weekly deploy'
 on: 
-  push:
-    branches:
-      - main
   schedule:
     # friday 08:00
     - cron: '12 0 * * 5'

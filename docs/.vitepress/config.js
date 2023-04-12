@@ -32,6 +32,7 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/plantree/ruanyf-weekly' },
+      { icon: 'discord', link: 'https://discord.gg/ffRG4mWzFZ' }
     ],
     footer: {
       message: 'Released under the MIT License.',

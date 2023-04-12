@@ -3,6 +3,7 @@
 <p align="left">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
 <a href="https://github.com/plantree/ruanyf-weekly/actions/workflows/weekly-deploy.yml"><img src="https://github.com/plantree/ruanyf-weekly/actions/workflows/weekly-deploy.yml/badge.svg"></a>
+<a href="https://discord.gg/ffRG4mWzFZ"><img src="https://img.shields.io/discord/1095518582475067512"></a>
 </p>
 
 > 声明: 非官方！！！官网链接在https://www.ruanyifeng.com/blog/
@@ -46,9 +47,15 @@
 
 #### Changelog
 
-##### Todo
+##### 2023.04.12
 
-- 图片格式从webp转为通用格式
+###### Bug Fixes
+
+- 去除GitHub Action无效的push触发
+
+###### Features
+
+- 增加discord
 
 ##### 2023.04.10
 
