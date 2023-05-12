@@ -7,10 +7,12 @@ export default defineConfig({
   ignoreDeadLinks: true, 
   title: 'ruanyf-weekly',
   description: '阮一峰的技术周刊',
-  lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
-  head: [['meta', { name: 'theme-color', content: '#3c8772' }]],
+  head: [
+    ['link', { rel: "icon", type: "image/png", href: "/favicon.png"}],
+    ['meta', { name: 'theme-color', content: '#3c8772' }]
+  ],
   markdown: {
     headers: {
       level: [0, 1]
