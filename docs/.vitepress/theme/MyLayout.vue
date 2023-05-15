@@ -8,13 +8,13 @@ const { Layout } = DefaultTheme
 <template>
   <Layout>
     <template #doc-after>
-      <div class="donation">
+      <!-- <div class="donation">
         <div>
           <img src="/mianfeiwucan-weixin.png" alt="img" />
           <img src="/mianfeiwucan-alipay.png" alt="img" />
           <img src="/mianfeiwucan-sina.png" alt="img" />
         </div>
-      </div>
+      </div> -->
       <div class="giscus">
         <Giscus
           :key="giscus"

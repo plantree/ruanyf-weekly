@@ -27,6 +27,14 @@ export default defineConfig({
       {
         text: '技术周刊',
         link: 'https://github.com/ruanyf/weekly'
+      },
+      {
+        text: '免费午餐捐赠',
+        link: 'http://www.mianfeiwucan.org/donate/donate1/'
+      },
+      {
+        text: '移动端阅读',
+        link: '/qrcode.png'
       }
     ],
     sidebar: {

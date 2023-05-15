@@ -47,6 +47,12 @@
 
 #### Changelog
 
+##### 2023.05.15
+
+###### Features
+
+- 增加移动端阅读二维码入口(感谢@[terminalqo](https://github.com/terminalqo))
+
 ##### 2023.04.12
 
 ###### Bug Fixes
@@ -61,7 +67,7 @@
 
 ###### Features
 
-- 一键部署到Vercel（感谢@chaos-zhu）
+- 一键部署到Vercel（感谢@[chaos-zhu](https://github.com/chaos-zhu))
 - 增加公益捐赠（免费午餐）
 
 ##### 2023.03.27
