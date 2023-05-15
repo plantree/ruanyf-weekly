@@ -15,7 +15,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: '阮一峰的技术周刊 | 小站' }],
-    ['meta', { property: 'og:description', content: '阮一峰的技术周刊, 科技, 分享, 开源' }],
+    ['meta', { property: 'og:description', content: '科技, 分享, 开源' }],
     ['meta', { property: 'og:image', content: 'https://ruanyf-weekly.plantree.me/thumbnail.jpg' }],
     ['meta', { property: 'og:url', content: 'https://ruanyf-weekly.plantree.me/' }],
   ],
