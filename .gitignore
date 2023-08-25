@@ -106,6 +106,7 @@ dist
 # vitepress
 cache/
 issue*.md
+!issue-5.md
 !issue-8.md
 !issue-82.md
 !issue-247.md
