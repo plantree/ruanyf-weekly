@@ -12,7 +12,14 @@ export default defineConfig({
   lang: 'zh-CN',
   head: [
     ['link', { rel: "icon", type: "image/png", href: "/favicon.png" }],
-    ['script', { src: '/_vercel/insights/script.js', defer: '' }],
+    ['script', {
+      src: '/_vercel/insights/script.js', defer: ''
+    }],
+    ['script', {
+      src: '/analytic.js', defer: '',
+      'data-website-id': 'd49602a4-673c-4b6f-b2ca-8e5c2b358850',
+      'data-host-url': "https://api.counter.plantree.me/umami"
+    }],
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: '阮一峰的技术周刊 | 小站' }],

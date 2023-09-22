@@ -8,9 +8,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs; bash ./scripts/build-hook.sh",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs; bash ./scripts/build-hook.sh",
+    "preview": "vitepress preview docs",
+    "export-pdf": "press-export-pdf export docs -c docs/.vitepress/vitepress-pdf.config.js"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,11 @@
   "homepage": "https://github.com/plantree/ruanyf-weekly#readme",
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.49",
+    "vitepress-export-pdf": "^1.0.0-beta.0",
     "vue": "^3.2.47"
   },
   "dependencies": {
-    "@giscus/vue": "^2.2.8"
+    "@giscus/vue": "^2.2.8",
+    "@vercel/analytics": "^1.0.1"
   }
 }
