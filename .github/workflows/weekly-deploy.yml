@@ -1,5 +1,8 @@
 name: "weekly deploy"
 on:
+  push:
+    branches:
+      - main
   schedule:
     # friday 08:00, scheduler has delay
     - cron: "59 23 * * 4"
