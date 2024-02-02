@@ -6,7 +6,7 @@ on:
   schedule:
     # friday 08:00, scheduler has delay
     - cron: "59 23 * * 4"
-    - cron: "30 00 * * 5"
+    - cron: "12 00 * * 5"
 
 jobs:
   build:
