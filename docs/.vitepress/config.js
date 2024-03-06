@@ -72,7 +72,9 @@ export default defineConfig({
     algolia: {
       appId: 'JMQN3OHTS2',
       apiKey: '9bb35b7fbb4b3ae36bb0f2ac9af77b5e',
-      indexName: 'ruanyf-weekly'
+      indexName: 'ruanyf-weekly',
+      // https://docsearch.algolia.com/docs/api
+      maxResultsPerGroup: 20
     },
   },
 });
