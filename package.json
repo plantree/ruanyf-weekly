@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/plantree/ruanyf-weekly#readme",
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.44",
+    "vitepress": "1.0.0-rc.44",
     "vue": "^3.2.47"
   },
   "dependencies": {
