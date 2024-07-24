@@ -50,8 +50,8 @@ export default defineConfig({
         link: 'https://github.com/ruanyf/weekly'
       },
       {
-        text: '免费午餐捐赠',
-        link: 'http://www.mianfeiwucan.org/donate/donate1/'
+        text: '个人博客',
+        link: 'https://plantree.me/'
       },
       {
         text: '移动端阅读',

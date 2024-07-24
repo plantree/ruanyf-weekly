@@ -7,7 +7,7 @@ titleTemplate: 小站
 hero:
   name: 阮一峰的技术周刊
   text: 科技, 分享, 开源
-  tagline: 出于个人兴趣搭建，非官方！！！官网链接在https://www.ruanyifeng.com/blog/
+  tagline: 官方链接：https://www.ruanyifeng.com/blog/
   actions:
     - theme: brand
       text: Get Started
@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 及时更新
-    details: GitHub Action定期爬取最新文章
+    details: GitHub Action定时爬取最新文章
   - title: 收录全面
     details: 涵盖所有历史文章并按日期分类
   - title: 移动端适配
