@@ -110,6 +110,7 @@ issue*.md
 !issue-8.md
 !issue-82.md
 !issue-247.md
+!issue-311.md
 scripts/*.json
 .env
 *.json
