@@ -1,6 +1,4 @@
 # 科技爱好者周刊（第 311 期）：低利率与长期项目
-<img class="pv" src="https://api.visitor.plantree.me/visitor-badge/pv?namespace=plantree.me&key=ruanyf-weekly/issue-311.md">
-
 
 这里记录每周值得分享的科技内容，周五发布。
 
