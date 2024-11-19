@@ -67,7 +67,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present Plantree'
+      copyright: 'Copyright © 2023-present <a href="https://plantree.me/" target="_blank">Plantree</a>'
     },
     algolia: {
       appId: 'JMQN3OHTS2',
