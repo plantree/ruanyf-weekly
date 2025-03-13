@@ -76,6 +76,9 @@ export default defineConfig({
       // https://docsearch.algolia.com/docs/api
       maxResultsPerGroup: 20
     },
+    serach: {
+      provider: 'local'
+    }
   },
 });
 
