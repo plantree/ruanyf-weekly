@@ -19,6 +19,7 @@ jobs:
           today=`date +"%Y-%m-%d"`
           git config user.name github-actions
           git config user.email github-actions@github.com
+          git stash
           git pull
           git add .
           git commit -m "[${today}] done"
