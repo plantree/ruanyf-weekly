@@ -4,9 +4,9 @@ on:
     branches:
       - main
   schedule:
-    # friday 08:00, scheduler has delay
-    - cron: "59 23 * * 4"
-    - cron: "12 00 * * 5"
+    # Friday 08:37 and 10:37 Beijing time (UTC+8); actual starts may be delayed.
+    - cron: "37 0 * * 5"
+    - cron: "37 2 * * 5"
 
 jobs:
   build:

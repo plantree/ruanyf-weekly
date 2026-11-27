@@ -30,6 +30,10 @@
 
 - 定时构建采用了GitHub Action
 
+  - 每周五北京时间（UTC+8）08:37 和 10:37 各触发一次，第二次作为补跑。
+  - GitHub Actions 的 cron 使用 UTC，对应 `37 0 * * 5` 和 `37 2 * * 5`；实际触发可能延迟，不保证准点或周刊已发布。
+  - 工作流通过提交更新触发 Netlify 构建，构建时抓取周刊内容。
+
 - 搜索引擎使用Algolia
 
 #### 三. 本地启动
@@ -104,4 +108,3 @@
 1. https://www.ruanyifeng.com/blog/
 1. https://giscus.app/zh-CN
 1. http://www.mianfeiwucan.org/
-
